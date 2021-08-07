@@ -1,5 +1,5 @@
 {% set name = "types-orjson" %}
-{% set version = "0.1.1" %}
+{% set version = "3.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-orjson-{{ version }}.tar.gz
-  sha256: 7454bfbaed27900a844bb9d8e211b69f1c335f0b9e3541d4950a793db41c104d
+  sha256: e8513f75886a13e6061f5658d53d57d97b3af20cb9c3dcee09e31793f3cee28f
 
 build:
   number: 0
